@@ -53,7 +53,7 @@ class PercentageCircleView @JvmOverloads constructor(
             "From value cannot be less than 0: $from"
         }
         require(to <= 100) {
-            "to value cannot be less than 0: $to"
+            "to value cannot be more than 100: $to"
         }
     }
 
